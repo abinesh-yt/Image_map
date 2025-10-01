@@ -23,8 +23,9 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 # CODE
-```
+
 map.html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,9 +68,11 @@ map.html
  
 </body>
 </html>
+```
 
 
 place1.html
+```
 <!DOCTYPE html>
 <html >
 <head>
@@ -101,8 +104,10 @@ place1.html
     
 </body>
 </html>
+```
 
 place2.html
+```
 <!DOCTYPE html>
 <html >
 <head>
@@ -135,8 +140,10 @@ place2.html
     
 </body>
 </html>
+```
 
 place3.html
+```
 <!DOCTYPE html>
 <html >
 <head>
@@ -175,8 +182,10 @@ Saravana Stores in Pallavaram is a popular shopping destination offering a wide 
     
 </body>
 </html>
+```
 
 place4.html
+```
 
 <!DOCTYPE html>
 <html >
@@ -211,8 +220,10 @@ place4.html
     
 </body>
 </html>
+```
 
 place5.html
+```
 
 <!DOCTYPE html>
 <html >
@@ -248,8 +259,10 @@ Pallavaram Railway Station is one of the busiest suburban stations in Chennai, l
     
 </body>
 </html>
+```
 
 views.py
+```
 from django.http import HttpResponse
 from django.shortcuts import render
 
@@ -271,8 +284,10 @@ def place4(request):
 
 def place5(request):
     return render(request,'place5.html')
+```
 
 urls.py
+```
 """
 URL configuration for myproject project.
 
