@@ -315,7 +315,7 @@ urlpatterns = [
     path('place3/', views.place3),
     path('place4/', views.place4),
     path('place5/', views.place5),
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls)
 ]
 
 
